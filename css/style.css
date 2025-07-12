@@ -1,0 +1,168 @@
+* {
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+/* common css */
+
+.container {
+  max-width: 1280px;
+  margin: auto;
+}
+
+.panda-btn {
+  border-radius: 6px;
+  background: linear-gradient(
+    180deg,
+    rgb(255, 88, 155) -0.006%,
+    rgb(255, 19, 111) 99.994%
+  );
+  padding: 15px 35px;
+  border: none;
+  color: white;
+  font-weight: 500;
+}
+
+.common-section-title {
+  font-weight: 600;
+  font-size: 36px;
+}
+
+/* custom css */
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 0;
+}
+
+.search-parent {
+  position: relative;
+  color: #bababa;
+}
+
+.search-parent input {
+  border-radius: 66px;
+  padding: 15px 30px;
+  width: 500px;
+  background-color: rgb(241, 241, 241);
+  border: none;
+}
+
+.search-parent i {
+  position: absolute;
+  top: 17px;
+  right: 20px;
+}
+
+.nav-items {
+  display: flex;
+  gap: 15px;
+}
+
+.nav-items li {
+  list-style: none;
+}
+
+.nav-items li a {
+  text-decoration: none;
+  color: #707070;
+  font-weight: 600;
+  font-size: 16px;
+}
+
+/* banner */
+.banner {
+  background: rgb(254, 234, 233);
+  padding: 28px;
+  border-radius: 10px;
+  margin-top: 25px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 5px;
+}
+
+.banner h2 {
+  color: rgb(31, 31, 31);
+  font-size: 52px;
+  font-weight: bold;
+}
+
+.banner p {
+  color: #4e4e4e;
+  max-width: 500px;
+}
+
+.banner-price {
+  color: #ff136f;
+  font-weight: bold;
+  font-size: 52px;
+  display: inline-block;
+  margin-bottom: 8px;
+}
+
+.banner img {
+  width: 402px;
+  height: 378px;
+}
+
+/* categories  */
+
+.categories {
+  margin: 64px auto;
+}
+
+.categories-card-container {
+  display: flex;
+  justify-content: space-between;
+  gap: 26px;
+}
+
+.category-card {
+  /* background: linear-gradient(
+    151.85deg,
+    rgb(255, 156, 53) 14.537%,
+    rgb(255, 208, 25) 84.486%
+  ); */
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  border-radius: 10px;
+  /* width: 100%; */
+  flex: 1;
+}
+
+.category-card:nth-child(1) {
+  background: linear-gradient(
+    151.85deg,
+    rgb(255, 156, 53) 14.537%,
+    rgb(255, 208, 25) 84.486%
+  );
+}
+
+.category-card:nth-child(2) {
+  /* Linear */
+  background: linear-gradient(
+    180deg,
+    rgb(255, 88, 155) -0.006%,
+    rgb(255, 19, 111) 99.994%
+  );
+}
+
+.category-card:nth-child(3) {
+  background: linear-gradient(
+    170.38deg,
+    rgb(66, 137, 255) 15.416%,
+    rgb(63, 7, 248) 74.29%
+  );
+}
+
+.category-card h3 {
+  color: white;
+  font-weight: bold;
+  font-size: 30px;
+}
+
+/* shoes-backpack-parent */
