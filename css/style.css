@@ -220,3 +220,29 @@ nav {
 .shoe-card .panda-btn {
   background: black;
 }
+
+/* contact us section */
+.contact-us-parent {
+  background-color: #fff2f1;
+  text-align: center;
+  padding: 35px 20px;
+  margin: 35px auto;
+  border-radius: 15px;
+}
+
+.contact-inp-btn-parent {
+  display: flex;
+  justify-content: center;
+  position: relative;
+}
+
+.contact-inp-btn-parent input {
+  border: none;
+  padding: 15px 152px;
+}
+
+.contact-inp-btn-parent .panda-btn {
+  border-top-left-radius: 0;
+  border-bottom-left-radius: 0;
+  position: absolute;
+}
