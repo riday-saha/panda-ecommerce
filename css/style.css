@@ -166,3 +166,57 @@ nav {
 }
 
 /* shoes-backpack-parent */
+.shoes-backpack-parent {
+  background: #f4f4f4;
+}
+
+.shoes-backpack-section-title-parent {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.shoes-backpack-section-title-parent h2 {
+  font-weight: bold;
+  font-size: 36px;
+}
+
+.shoes-backpack-section-title-parent a {
+  font-size: 20px;
+  color: #ff9d00;
+  text-decoration: none;
+}
+
+/* shoes */
+.shoes-section {
+  padding: 50px 0;
+}
+
+.shoe-card-container {
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+}
+
+.shoe-card {
+  background-color: white;
+  border-radius: 10px;
+  text-align: center;
+  padding: 25px;
+  box-shadow: 2px 0px 8px 0px rgb(0 0 0 / 15%);
+}
+
+.card-price {
+  display: block;
+  font-weight: 600;
+  font-size: 22px;
+  margin-bottom: 12px;
+}
+.shoe-card img {
+  width: 336px;
+  height: 202px;
+}
+
+.shoe-card .panda-btn {
+  background: black;
+}
