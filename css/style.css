@@ -249,27 +249,44 @@ nav {
 }
 
 /* contact us section */
-.contact-us-parent {
-  background-color: #fff2f1;
+
+.contact-us-container {
+  background: #fff2f1;
+  margin: 75px auto;
+  padding: 145px 265px;
   text-align: center;
-  padding: 35px 20px;
-  margin: 35px auto;
   border-radius: 15px;
 }
 
-.contact-inp-btn-parent {
-  display: flex;
-  justify-content: center;
+.contact-us-container h3 {
+  font-size: 30px;
+  font-weight: 600;
+  line-height: 45px;
+  color: rgb(31, 31, 31);
+}
+
+.contact-us-container p {
+  color: rgb(112, 112, 112);
+  font-weight: 500;
+  line-height: 24px;
+}
+
+.send-email {
   position: relative;
+  top: 20px;
 }
 
-.contact-inp-btn-parent input {
+.send-email input[type="email"] {
+  width: 600px;
+  padding: 20px;
   border: none;
-  padding: 15px 152px;
+  border-top-right-radius: 0;
+  border-bottom-right-radius: 0;
 }
 
-.contact-inp-btn-parent .panda-btn {
+.send-email .panda-btn {
+  position: absolute;
+  padding: 20px 30px;
   border-top-left-radius: 0;
   border-bottom-left-radius: 0;
-  position: absolute;
 }
