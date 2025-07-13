@@ -33,9 +33,15 @@
 
         <ul class="nav-items">
           <li><a href="">Home</a></li>
-          <li><a href="">Product</a></li>
-          <li><a href="">About Us</a></li>
-          <li><a href="">Contact Us</a></li>
+          <li><a href="#category">Category</a></li>
+          <li class="product-li">
+            <a href="">Product <i class="fa-solid fa-angle-down"></i></a>
+            <ul class="dropdown-item">
+              <li><a href="#shoe">Shoes</a></li>
+              <li><a href="#backpack">Backpack</a></li>
+            </ul>
+          </li>
+          <li><a href="#contact-us">Contact Us</a></li>
         </ul>
       </nav>
       <!-- Banner -->
@@ -59,7 +65,7 @@
     </header>
     <main>
       <!-- categories -->
-      <section class="categories container">
+      <section class="categories container" id="category">
         <h2 class="common-section-title">Categories</h2>
         <div class="categories-card-container">
           <div class="category-card">
@@ -80,7 +86,7 @@
       <!-- shoes and backpack section -->
       <section class="shoes-backpack-parent">
         <!-- shoes -->
-        <div class="shoes-section container">
+        <div class="shoes-section container" id="shoe">
           <!-- section title and link -->
           <div class="shoes-backpack-section-title-parent">
             <h2>Shoes</h2>
@@ -133,7 +139,7 @@
             <a href="">See All</a>
           </div>
           <!-- backpack content -->
-          <div class="shoe-card-container">
+          <div class="shoe-card-container" id="backpack">
             <div class="shoe-card">
               <img src="./images/bags/bag-3.png" alt="" />
               <h2>Ison Backpack</h2>
@@ -175,7 +181,7 @@
       </section>
 
       <!-- contact us section  -->
-      <section class="contact-us-parent container">
+      <section class="contact-us-parent container" id="contact-us">
         <h2>LET'S STAY IN TOUCH</h2>
         <p>Get updates on sales specials and more</p>
         <div class="contact-inp-btn-parent">
